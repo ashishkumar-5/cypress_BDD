@@ -1,1 +1,1 @@
-{"total":2,"items":[{"uid":"bd47683743fafa246f3c80d894cde25c","name":"OrangeHRM Login Test","statistic":{"failed":13,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":15}}]}
+{"total":2,"items":[{"uid":"bd47683743fafa246f3c80d894cde25c","name":"OrangeHRM Login Test","statistic":{"failed":13,"broken":0,"skipped":4,"passed":4,"unknown":0,"total":21}}]}

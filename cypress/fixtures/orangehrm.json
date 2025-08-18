@@ -1,11 +1,13 @@
 {
     "username": "Admin",
     "password": "admin123",
-    "headertxtdb":"Dashboard",
-    "headerytxtpim":"PIM",
-    "firstname": "Ashish",
-    "middlename": "Kumar",
-    "lastname": "Vanjarapu1",
-    "employeeId":"",
-    "successmessage":"Successfully Saved"
+    "headertxtdb": "Dashboard",
+    "headerytxtpim": "PIM",
+    "firstname": "Testfn",
+    "middlename": "Testmn",
+    "lastname": "Testln",
+    "employeeId": "983625",
+    "successmessage": "Successfully Saved",
+    "actionname": "yes,delete",
+    "deletedsuccessmessage":"Successfully Deleted"
 }
