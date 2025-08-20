@@ -5,7 +5,7 @@ class PIMPage
     add_employee_tab="//a[normalize-space()='Add Employee']";
 
     verifyHeaderText(headerText) {
-        cy.get(this.headertext).should('have.text', headerText);
+        return cy.get(this.headertext);
     }
 
     clickEmployeeListTab() {
@@ -18,4 +18,4 @@ class PIMPage
 	
 
 }
-export default PIMPage
+module.exports = new PIMPage

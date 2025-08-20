@@ -4,7 +4,7 @@ class DashboardPage {
     btnpimmenu = "//ul[@class='oxd-main-menu']/li[2]";
 
     verifyHeaderText(expectedText) {
-        cy.get(this.headertext).should('have.text',expectedText);
+       return cy.get(this.headertext);
     }
 
     clickPimMenu() {

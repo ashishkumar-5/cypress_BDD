@@ -36,11 +36,10 @@ class AddEmployeePage{
     cy.xpath(this.cancelBtn).click();
   }
 
-  verifySuccessToastMessage(expectedMsg) {
-    cy.xpath(this.toastMessage)
-      .should('be.visible')
-      .and('contain.text', expectedMsg);
+  verifySuccessToastMessage() {
+    return cy.xpath(this.toastMessage)
+      .should('be.visible').invoke("text")
   }
 }
 
-export default AddEmployeePage
+module.exports= new AddEmployeePage

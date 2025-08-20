@@ -56,4 +56,4 @@ class EmployeeListPage {
 
 }
 
-export default EmployeeListPage
+module.exports= new EmployeeListPage
