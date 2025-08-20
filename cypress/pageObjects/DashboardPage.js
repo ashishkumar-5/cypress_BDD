@@ -3,8 +3,8 @@ class DashboardPage {
     headertext = ".oxd-topbar-header-breadcrumb > .oxd-text";
     btnpimmenu = "//ul[@class='oxd-main-menu']/li[2]";
 
-    verifyHeaderText(headerText) {
-        cy.get(this.headertext).should('have.text',headerText );
+    verifyHeaderText(expectedText) {
+        cy.get(this.headertext).should('have.text',expectedText);
     }
 
     clickPimMenu() {
@@ -12,7 +12,6 @@ class DashboardPage {
 
     }
 
-
 }
 
-export default DashboardPage;
+module.exports= new DashboardPage;

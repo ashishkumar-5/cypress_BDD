@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-08-19T13:05:01.142Z",
+    "end": "2025-08-19T13:05:03.895Z",
+    "duration": 2753,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "83490db3-5ffb-4703-83d6-0427df47aa7c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\features\\login.feature",
+      "file": "cypress\\e2e\\features\\login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 361,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\e2e\\\\features\\\\login.feature\"\n}",
+          "code": "throw err;",
+          "err": {
+            "message": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > BeforeEach is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > BeforeEach is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at cypress/stepDefinitions/hooks.js (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\features\\login.feature:14017:7)\n    at __require (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\features\\login.feature:4:52)\n    at eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\features\\login.feature:14038:3)\n    at eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\features\\login.feature:14041:3)\n    at eval (<anonymous>)\n    at <unknown> (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:113392:23)\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Object.gotValue (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:6446:18)\n    at Object.gotAccum (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:6435:25)\n    at Object.tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:1777:23)",
+            "diff": null
+          },
+          "uuid": "5ca7e066-6be8-40ab-8aa5-b82de4de811b",
+          "parentUUID": "83490db3-5ffb-4703-83d6-0427df47aa7c",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "5ca7e066-6be8-40ab-8aa5-b82de4de811b"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 361,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
