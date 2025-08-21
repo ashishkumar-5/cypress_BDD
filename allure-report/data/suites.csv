@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","15813","Verify the New Employee is created successfully","","Thu Aug 21 12:51:51 IST 2025","passed","Thu Aug 21 12:52:07 IST 2025","","PIM - Add, Search and Delete Employee","",""
+"","10896","Verify the New Employee is created successfully (example #1)","","Thu Aug 21 12:52:07 IST 2025","passed","Thu Aug 21 12:52:18 IST 2025","","PIM - Add, Search and Delete Employee","",""
+"","9351","Successful login with valid credentials","","Thu Aug 21 12:51:36 IST 2025","passed","Thu Aug 21 12:51:45 IST 2025","","Login","",""
+"","11005","Verify the New Employee is created successfully (example #2)","","Thu Aug 21 12:52:18 IST 2025","passed","Thu Aug 21 12:52:29 IST 2025","","PIM - Add, Search and Delete Employee","",""
+"","3152","login with invalid credentials","","Thu Aug 21 12:51:45 IST 2025","passed","Thu Aug 21 12:51:48 IST 2025","","Login","",""
